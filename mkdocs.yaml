@@ -1,0 +1,34 @@
+site_name: roompact-integration
+site_description: Internal documentation for integrations
+site_author: Software Engineering Team
+
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.tracking
+    - content.code.copy
+
+nav:
+  - Overview: index.md
+
+markdown_extensions:
+  - admonition
+
+  - toc:
+      permalink: true
+      toc_depth: 2-4
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.details
+  - pymdownx.highlight
+
+plugins:
+  - search
+  - include-markdown
