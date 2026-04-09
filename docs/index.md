@@ -17,4 +17,4 @@ sequenceDiagram
 
 ---
 ## Patch Testing Instructions
-TEST CHANGE
+This is how to test
