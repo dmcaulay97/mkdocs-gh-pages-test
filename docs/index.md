@@ -17,4 +17,4 @@ sequenceDiagram
 
 ---
 ## Patch Testing Instructions
-New Worklow Test using official action
+New Workflow with specified versions
