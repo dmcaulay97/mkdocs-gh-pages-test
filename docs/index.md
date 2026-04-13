@@ -36,3 +36,5 @@ New Workflow with specified versions
 file name change TEST
 
 deploy-mkdocs.yaml name change TEST
+
+delete gh pages branch TEST
