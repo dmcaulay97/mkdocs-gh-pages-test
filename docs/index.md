@@ -1,3 +1,15 @@
+<style>
+  .md-sidebar {
+    display: none;
+  }
+</style>
+# {Integration Name}
+## Introduction
+{%
+  include-markdown "../README.md"
+  start="# Introduction"
+  end="# Development Instructions"
+%}
 ## Sequence Diagram
 ```mermaid
 sequenceDiagram
