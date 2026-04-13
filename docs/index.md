@@ -10,6 +10,7 @@
   start="# Introduction"
   end="# Development Instructions"
 %}
+---
 ## Sequence Diagram
 ```mermaid
 sequenceDiagram
