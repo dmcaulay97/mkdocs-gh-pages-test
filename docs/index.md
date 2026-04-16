@@ -3,7 +3,7 @@
     display: none;
   }
 </style>
-# {Integration Name}
+# Roompact Integration
 ## Introduction
 {%
   include-markdown "../README.md"
