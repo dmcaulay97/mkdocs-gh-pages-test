@@ -23,3 +23,5 @@ This section should include a list of config maps and secrets relevant to the in
 The CPU requests/limit and memory requests/limit have been set to small values. During development of an integration performance testing **MUST** be done to discover the values need to successfully run the integration.
 
 The integration can be built and ran using command `skaffold dev`.
+
+Run Workflow Test
